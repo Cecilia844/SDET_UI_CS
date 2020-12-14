@@ -1,0 +1,22 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "description": "exercise1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cecilia844/SDET_UI_CS.git"
+  },
+  "author": "cecilia.soriano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cecilia844/SDET_UI_CS/issues"
+  },
+  "homepage": "https://github.com/Cecilia844/SDET_UI_CS#readme",
+  "devDependencies": {
+    "cypress": "^6.1.0"
+  }
+}
