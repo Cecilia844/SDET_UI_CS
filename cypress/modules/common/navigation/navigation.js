@@ -4,4 +4,7 @@
 
 import { menu } from './menu';
 
-export const goToSearchPage = () => cy.visit(menu.SEARCHURL);
+export const goToSearchPage = () => {
+    cy.visit(menu.SEARCHURL);
+    cy.log('Opening main search page');
+}

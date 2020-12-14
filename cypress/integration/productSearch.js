@@ -4,13 +4,16 @@ import {
     closeDiscountPopup,
     typeSearchQuery,
     clickSearchButton,
-    goToPage
+    goToPage,
+    clickOnSecondAd,
+    verifyProductAvailable
 } from '../modules/mainPage/mainPage';
 
 describe('Main page - Open', () => {
 
     before(() => {
         goToSearchPage();
+        
     });
 
     it('Product Search - Iphone', () => {
@@ -18,8 +21,12 @@ describe('Main page - Open', () => {
         typeSearchQuery('Iphone');
     
         clickSearchButton();
-
         //closeDiscountPopup();
+
         goToPage('2');
+
+        clickOnSecondAd();
+
+        verifyProductAvailable();
     });
 });
