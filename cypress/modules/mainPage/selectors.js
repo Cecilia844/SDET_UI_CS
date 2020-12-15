@@ -6,6 +6,8 @@ export const selectorRepository = Object.freeze({
     INPUT_PAGE_NMB: '#root > div > div > div.main-content > div.right-menu > div > div.list-pagination > div > div.jump-aera > span.next-input.next-large > input',
     INPUT_PAGE_BTN: '#root > div > div > div.main-content > div.right-menu > div > div.list-pagination > div > div.jump-aera > span.jump-btn',
     SECOND_IMG_AD: '#root > div > div > div.main-content > div.right-menu > div > div.gallery-wrap.product-list > ul > div:nth-child(1) > li:nth-child(2) > div > div.product-img > div > a',
-    PRODUCT_QTY: '#root > div > div.product-main > div > div.product-info > div.product-quantity.clearfix > span > span > span.next-input.next-medium.next-input-group-auto-width'
+    PRODUCT_QTY: '#root > div > div.product-main > div > div.product-info > div.product-quantity.clearfix > span > span > span.next-input.next-medium.next-input-group-auto-width > input',
+    BUY_NOW_BTN: '#root > div > div.product-main > div > div.product-info > div.product-action > span.buy-now-wrap > button',
+    ADD_CART_BTN: '#root > div > div.product-main > div > div.product-info > div.product-action > span.addcart-wrap > button'
   });
   
