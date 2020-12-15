@@ -23,7 +23,7 @@ export const popUpDisplayed = popUpToClose => {
 
 export const goToPage = pagenmb => {
     cy.wait(1000);
-    cy.scrollTo('bottom', { duration: 1000 });
+    cy.scrollTo('bottom', { duration: 750 });
     type(selectorRepository.INPUT_PAGE_NMB,pagenmb);
     click(selectorRepository.INPUT_PAGE_BTN);
     cy.log('Opened 2nd results page');
